@@ -324,7 +324,7 @@ export type PushEvent = string;
  */
 @Plugin({
   pluginName: 'Push',
-  plugin: 'phonegap-plugin-push',
+  plugin: '@havesource/cordova-plugin-push',
   pluginRef: 'PushNotification',
   repo: 'https://github.com/phonegap/phonegap-plugin-push',
   install: 'ionic cordova plugin add phonegap-plugin-push',
